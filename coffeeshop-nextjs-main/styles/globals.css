@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DynaPuff&family=Open+Sans&family=Pacifico&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("/assets/cover.jpg");
+  /* background-size: cover; */
+  @apply bg-scroll md:bg-cover md:bg-fixed;
+}
+html {
+  scroll-behavior: smooth;
+}
